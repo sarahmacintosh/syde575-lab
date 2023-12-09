@@ -154,8 +154,8 @@ def train_model(model, loss, opt, train_input_, train_label, val_input_, val_lab
 
 
 lr = 0.01
-epochs = 100
+epochs = 10
 
-run_MLP( train_images, train_labels, val_images, val_labels, epochs, lr)
-#run_CNN( train_images, train_labels, val_images, val_labels, epochs, lr)
+run_MLP(train_images, train_labels, val_images, val_labels, epochs, lr)
+run_CNN(train_images, train_labels, val_images, val_labels, epochs, lr)
 
